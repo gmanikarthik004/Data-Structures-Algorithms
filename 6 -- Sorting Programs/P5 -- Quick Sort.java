@@ -1,6 +1,3 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-
 class QuickSortClass {
     static int partitionFn(int[] arr, int low, int high) {
         int pivotElement = arr[low]; // Pivot is selected as the first element
