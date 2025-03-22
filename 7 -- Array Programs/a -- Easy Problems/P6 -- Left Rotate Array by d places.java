@@ -48,9 +48,9 @@ class LeftRotateByD {
 
         // Right-Rotate for k times -- LeetCode
         /*
-        reverseArray(nums, 0, n-k-1);
-        reverseArray(nums, n-k, n-1);
-        reverseArray(nums, 0, n-1);
+        reverseArray(nums, 0, n-1); // Reverse whole array
+        reverseArray(nums, 0, k-1); // Reverse first k elements
+        reverseArray(nums, k, n-1); // Reverse the rest
         */
         
         System.out.print("After rotating: ");
