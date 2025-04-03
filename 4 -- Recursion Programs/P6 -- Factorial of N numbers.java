@@ -8,6 +8,7 @@ class Factorial {
         
         factorialFn(n, 1); // Call for M-1
         // System.out.println("Factorial:" + factorialFn(n)); // Call for M-2
+        sc.close();
     }
     
     // M-1 Parameterized Recursion

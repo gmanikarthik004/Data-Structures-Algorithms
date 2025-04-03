@@ -1,5 +1,3 @@
-import java.util.*;
-
 class palindromeString {
     public static void main(String[] args) {
         String name = "AMMA";

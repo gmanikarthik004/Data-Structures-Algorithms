@@ -17,5 +17,7 @@ class Recursion_2 {
         int n = sc.nextInt();
         
         printName(1, n);
+
+        sc.close();
     }
 }

@@ -26,5 +26,7 @@ class Recursion_3 {
         
         // printN(1, n); // For 1st-method
         printN(n, n); // For 2nd-method
+
+        sc.close();
     }
 }
