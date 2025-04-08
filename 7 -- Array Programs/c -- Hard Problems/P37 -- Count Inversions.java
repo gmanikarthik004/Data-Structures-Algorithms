@@ -14,7 +14,7 @@ class CountInversions {
             }
             else {
                 tempList.add(arr[right]);
-                cnt += mid - left + 1;
+                cnt += mid - left + 1; // Count Logic
                 right++;
             }
         }
@@ -27,6 +27,10 @@ class CountInversions {
         while(right <= high) {
             tempList.add(arr[right]);
             right++;
+        }
+
+        for(int i = low; i <= high; i++) {
+            arr[i] = tempList.get(i - low);
         }
         
         return cnt;
