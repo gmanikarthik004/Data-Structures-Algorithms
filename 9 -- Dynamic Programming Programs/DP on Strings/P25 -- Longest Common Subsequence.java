@@ -27,6 +27,7 @@ class Solution
 */
 
 // TABULATION: T.C: O(N * M) && S.C: O(N * M)
+/*
 class Solution 
 {
     public static int getLengthOfLCS(String str1, String str2)
@@ -49,6 +50,7 @@ class Solution
         return dp[n][m];
     }
 }
+*/
 
 // SPACE OPTIMIZATION: T.C: O(N * M) && S.C: O(M)
 /*
