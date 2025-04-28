@@ -1,10 +1,11 @@
+import java.util.Arrays;
 class Solution {
     public int findNumberOfLIS(int[] nums) {
         int N = nums.length;
 
         int[] dp = new int[N];
-        Arrays.fill(dp, 1);
         int[] cnt = new int[N];
+        Arrays.fill(dp, 1);
         Arrays.fill(cnt, 1);
 
         int maxi = 1;
